@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="myint.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        #slider-container {
+            width: 600px;
+            max-width: 100%; /* Ensures the slider doesn't exceed the viewport width */
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+            float: left;
+            right: 250px;
+
+
+
+        }
+
+        .slide {
+
+            height: 100%;
+            position: absolute;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .active {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <ul> 
+        <li> <a href="/Home/main.html">Home</a>  </li>
+        <li><a href="/Myinterests/myint.html">My Interests</a> </li>
+        <li><a href="/Myskills/mySkill.html">My Skills</a></li>
+        <li><a href="/Myacademics/myac.html">My Academics</a></li>
+        <li><a href="/Myresume/myres.html">Resume</a></li>
+        
+    
+</ul>
+</header>
+
+<div class="parallax">
+    <h1>My Interests</h1>
+
+    <div class="cont1">
+        <h1>Computers</h1>
+        <div class="table table-fixed">
+            <div class="table-cell">
+              <img src="/Images/Untitled Project (5).jpg"style=" height: 300px; min-width: 300px; ">
+            </div>
+            <div class="table-cell table-cell__text">
+
+              <p>Growing up, I have always been interested in computers. My interest first began when I would play games on our family computer and I quickly began to want my own personal computer. Years later, I would get my first prebuilt PC and would use it all the time until eventually it began to fail. Because of my computer breaking I looked into building my own computer and saved up the money to buy the PC parts and I then constructed it. Originally this is what got me into PC hardware and other tech-related things such as programming.    </p>
+</p>
+            </div>
+          </div>
+        
+    </div>
+
+    <div class="cont2">
+        <h1>Photography</h1>
+        <div class="table table-fixed">
+            <div class="table-cell">
+              <img src="/Images/blur.jpg"style=" height: 300px; min-width: 300px; ">
+            </div>
+            <div class="table-cell table-cell__text">
+
+              <p> One of my favorite hobbies is photography. During my first two years in high school, I took a photography class where I learned all kinds of things about taking and editing photos. The class inspired me to start taking more photos and in the future, I really want to buy my own DSLR Camera and travel around the world taking cool photos. </p>
+</p>
+            </div>
+          </div>
+                
+              
+  
+            </div>
+     
+
+
+    <div class="cont2">
+        <div>
+            <h1>Video Games</h1>
+            <img src="/Images/assassains creed .png">
+            <img src="/Images/skate3.png">
+            <img src="/Images/Screenshot 2024-03-28 104721.png">
+           <p>A couple of my favorite games are Skate 3, Car X, and the Assassins Creed series. When I was little one of the first games I ever played was Skate 3 and it still remains one of my favorite games just because of how satisfying the trick system is. More recently I got into the Assassin's Creed games and I am currently on the fourth game in the series. Even though I have only played a few of the 13 games it has quickly become one of my favorite things to play as it has an interesting storyline and there's a bunch of content in each game. Lastly, Car X is extremely fun to play especially since I recently got a Steering wheel that connects to the game so I can now I can drift around which provides limitless fun.
+          </p>
+        </div>
+    </div>
+
+    <div class="cont1">
+        <h1>Graphic Design</h1>
+        <div class="table table-fixed">
+            <div class="table-cell">
+              <img src="/Images/Screenshot 2024-04-11 095838.png"style=" height: 300px; min-width: 300px; ">
+            </div>
+            <div class="table-cell table-cell__text">
+
+              <p>Similar to my introduction to photography I also took a graphic design class during my freshmen year of high school. In the class, I learned how to use Adobe Illustrator and a little bit of Photoshop. The class turned out to be one of the most useful classes I have taken as I can now create tons of cool graphics for anything I need like school or home projects. Sometimes I use Illustrator to create t-shirt designs because at some point I would Like to make my own clothing brand. The Picture on the left is a YouTube channel banner that I made a couple of years ago but never actually used.  </p>
+            </div>
+          </div>
+    </div>
+
+    <div class="cont1">
+        <h1>Skateboarding</h1>
+        <div class="table table-fixed">
+            <div class="table-cell">
+              <img src="/Images/20240421_180326.jpg"style=" height: 300px; min-width: 300px; ">
+            </div>
+            <div class="table-cell table-cell__text">
+
+              <p>	
+                Another thing I like to do in my free time is skateboard. Me and my friends will often go skate around where I live, and even though I can't do any tricks I like to just cruise around. Sometimes me and my friends will even go to the skatepark to go down the ramps and hang out. About a year ago I got an electric longboard for my birthday which is really fun to ride long distances.  </p>
+            </div>
+          </div>
+    </div>
+
+    <a class="more" href="/Myskills/mySkill.html"> More About Me </a>
+
+</div>
+
+<footer>
+
+    <div class="container">
+        <h2> Questions?</h2>
+        <div class="row">
+            <div class="column">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">Contact me</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your Email">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <hr class="solid">
+        <div class="footer-social-icons">
+            <ul class="social-icons">
+                <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+
+<script>
+    const slides = document.querySelectorAll('.slide');
+    let currentSlide = 0;
+
+    function showSlide(n) {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (n + slides.length) % slides.length;
+        slides[currentSlide].classList.add('active');
+    }
+
+    function nextSlide() {
+        showSlide(currentSlide + 1);
+    }
+
+    function prevSlide() {
+        showSlide(currentSlide - 1);
+    }
+
+    showSlide(0);
+
+    setInterval(nextSlide, 3000);
+</script>
+
+</body>
+</html>
+
